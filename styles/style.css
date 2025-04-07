@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 20px 10px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.base-color,
+select,
+button{
+    cursor: pointer;
+}
+
+.base-color{
+    width: 60px;
+    height: 40px;
+    border: none;
+}
+
+select{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: #fff;
+}

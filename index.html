@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/style.css">
+
     <title>Color Scheme Generator</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="top">
+            <input type="color" name="base-color" class="base-color" id="base-color" value="#F55A5A">
+            <select name="color-scheme" id="color-scheme">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="generate">Generate color scheme</button>
+        </div>
+    </div>
 </body>
 </html>
