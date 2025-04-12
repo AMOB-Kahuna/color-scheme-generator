@@ -51,7 +51,7 @@ button{
 
 .generated-colors{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
 }
 
 .color{
@@ -94,3 +94,4 @@ button{
         margin-left: auto;
     }
 }
+
